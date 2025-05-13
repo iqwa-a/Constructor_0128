@@ -8,4 +8,7 @@ class buku {
         this->judul = jdl;
         return *this;
     }
+    string getjudul() {
+        return this->judul;
+    }
 };
