@@ -12,3 +12,6 @@ class mahasiswa{
         mahasiswa(int iNim, string iNama);
         void Cetak();
 };
+mahasiswa::mahasiswa(){ // constructor tanpa parameter
+
+}
