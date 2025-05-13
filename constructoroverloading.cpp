@@ -25,3 +25,9 @@ void mahasiswa::Cetak(){
    cout << endl << "NIM: " << nim << endl;
     cout << "Nama: " << nama << endl;
 }
+int main () {
+    mahasiswa mhs1(12345);      // hanya nim
+    mahasiswa mhs2("Budi");     // hanya nama
+    mahasiswa mhs3(12345, "Budi");  
+    return 0;
+}
