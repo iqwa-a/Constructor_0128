@@ -18,3 +18,6 @@ mahasiswa::mahasiswa(){ // constructor tanpa parameter
 mahasiswa::mahasiswa(int iNim){ // constructor dengan parameter
     nim = iNim;
 }
+mahasiswa::mahasiswa(string iNama){
+    nama = iNama;
+}
