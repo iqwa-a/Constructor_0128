@@ -15,3 +15,6 @@ class mahasiswa{
 mahasiswa::mahasiswa(){ // constructor tanpa parameter
 
 }
+mahasiswa::mahasiswa(int iNim){ // constructor dengan parameter
+    nim = iNim;
+}
