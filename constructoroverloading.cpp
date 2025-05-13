@@ -29,5 +29,9 @@ int main () {
     mahasiswa mhs1(12345);      // hanya nim
     mahasiswa mhs2("Budi");     // hanya nama
     mahasiswa mhs3(12345, "Budi");  
+    // tampilan nilai 
+    cout << "Data Mahasiswa 1 :"; mhs1.Cetak();
+    cout << "Data Mahasiswa 2 :"; mhs2.Cetak();
+    cout << "Data Mahasiswa 3 :"; mhs3.Cetak();
     return 0;
 }
