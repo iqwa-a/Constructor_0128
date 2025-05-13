@@ -21,3 +21,7 @@ mahasiswa::mahasiswa(int iNim){ // constructor dengan parameter
 mahasiswa::mahasiswa(string iNama){
     nama = iNama;
 }
+void mahasiswa::Cetak(){
+   cout << endl << "NIM: " << nim << endl;
+    cout << "Nama: " << nama << endl;
+}
