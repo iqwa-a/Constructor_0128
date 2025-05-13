@@ -4,8 +4,8 @@ using namespace std;
 class buku {
     string judul;
     public:
-    buku setjumlah(int jdl) {
-        this->judul = jdl;
+    buku setjumlah(int judul) {
+        this->judul = judul;
         return *this;
     }
     string getjudul() {
